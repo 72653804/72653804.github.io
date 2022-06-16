@@ -1,23 +1,18 @@
-*
-{
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
     cursor: default;
 }
-
-body
-{
+body{
     background: lightblue;
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
 }
-
-.container
-{
+.container{
     position: relative;
     width: 100%;
     max-width: 1000px;
@@ -28,16 +23,12 @@ body
     grid-template-columns: 1fr 2fr;
     box-shadow: 0px 35px 55px rgba(0, 0, 0, 0.1);
 }
-
-.container .left_Side
-{
+.container .left_Side{
     position: relative;
     background: #003147;
     padding: 40px;
 }
-
-.profileText
-{
+.profileText{
     position: relative;
     display: flex;
     flex-direction: column;
@@ -45,16 +36,14 @@ body
     padding-bottom: 20px;
     border-bottom: 1px solid rgba(255, 255, 255, 0.2);
 }
-.profileText .imgBx
-{
+.profileText .imgBx{
     position: relative;
     width: 200px;
     height: 200px;
     border-radius: 50%;
     overflow: hidden;
 }
-.profileText .imgBx img
-{
+.profileText .imgBx img{
     position: absolute;
     top: 0;
     left: 0;
